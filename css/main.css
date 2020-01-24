@@ -1,5 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     background: linear-gradient(164deg, white, grey);
+    font-family: 'Liberation Sans', sans-serif;
+}
+
+#page-wrapper {
+    position: relative;
 }
 
 #header {
@@ -43,6 +54,12 @@ body {
 }
 
 
+@media (max-width: 650px) {
+  .logo > img {
+    margin: 0 auto;
+  }
+}
+
 li {
     list-style: none;
 }
@@ -52,11 +69,6 @@ a.nav-link {
     text-decoration: none;
 }
 
-@media (max-width: 650px) {
-  .logo > img {
-    margin: 0 auto;
-  }
-}
 
 @media (max-width: 650px) {
   nav {
@@ -66,7 +78,7 @@ a.nav-link {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 0;
+    padding: 0 50px;
   }
   nav li {
     padding-bottom: 5px;
@@ -83,7 +95,36 @@ nav > ul {
 @media (max-width: 650px) {
   nav > ul {
     flex-direction: column;
-    margin: 0 auto;
-    padding-left: 0;
   }
+}
+
+div.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#container-content {
+    height: 200px;
+    margin-top: 125px;
+    text-align: center;
+}
+
+@media (max-width: 650px) {
+  #container-content {
+    margin-top: 200px;
+  }
+}
+
+.grid-container {
+    display: flex;
+    height: 75px;
+    margin-top: 25px;
+}
+
+.grid {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
