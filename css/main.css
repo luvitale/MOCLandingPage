@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(164deg, white, grey);
+}
+
+#header {
+    background: rgb(4, 4, 32);
+    min-height: 75px;
+    width: 100%;
+    display: flex;
+}
+
+.logo {
+    width: 60vw;
+}
+
+.logo > img {
+    max-width: 300px;
+    margin: 0 2rem;
+}
