@@ -1,1 +1,1 @@
-"# Money On Chain Landing Page" 
+# Money On Chain Landing Page
