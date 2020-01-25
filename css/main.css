@@ -128,3 +128,14 @@ div.container {
     flex-direction: column;
     justify-content: space-around;
 }
+
+#how-it-works {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
